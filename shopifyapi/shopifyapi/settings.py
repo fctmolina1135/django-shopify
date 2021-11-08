@@ -144,3 +144,5 @@ SIMPLE_JWT = {
     'REFRESH_TOKEN_LIFETIME': timedelta(days=15),
     'ROTATE_REFRESH_TOKENS': True,
 }
+
+AUTH_USER_MODEL = "shopifyapp.User"
